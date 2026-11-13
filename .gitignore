@@ -8,6 +8,7 @@ profile-order.json
 # built installers — distributed as GitHub release assets
 release/
 *.exe
+!kernel/*.exe
 
 # uploads and diagnostics
 screenshots/
