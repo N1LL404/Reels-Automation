@@ -1,8 +1,5 @@
 node_modules/
 
-# bundled antidetect browser kernel — distributed as the installer / release asset
-kernel/
-
 # runtime workspace state — browser sessions, profiles, counter
 data/
 profiles/
@@ -15,6 +12,9 @@ release/
 # uploads and diagnostics
 screenshots/
 *.log
+
+# kernel vendor test leftovers
+kernel/data/
 
 # local-only files
 installer/
